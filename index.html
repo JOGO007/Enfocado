@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">     
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Enfocado</title>
+</head>
+<body>
+    <div class="layout">
+        <main id="todo">
+            <h1>ENFOCADO</h1>
+            <div class="todo_content">
+                <section class="todo_content_section">
+                    <h2>Pendientes</h2>
+                    <div id="content_section_pendiente" class="content_list-cards">
+                        <form id="form_pendiente">
+                            <div class="form_content-input">
+                                <button type="submit" class="button_icon-agregar">
+                                    <img src="./img/circulo_punteado.svg" alt="Agregar Pendiente">
+                                </button>
+                                <label for="pendiente" class="visually-hidden">Nueva tarea</label>
+                                <textarea id="new_pendiente" name="tarea" placeholder="Nuevo pendiente..." rows="1"></textarea>
+                            </div>
+                        </form>
+                        <div id="content_pendientes-cards"></div>
+                    </div>
+                </section>
+                <section class="todo_content_section">
+                    <h2>Realizados</h2>
+                    <div id="content_realizados-cards" class="content_list-cards"></div>
+                </section>
+            </div>
+        </main>
+        <footer>
+            <div class="logo_jogo flex-center">
+                <img src="./img/Logo_JOGO_Cuadrado.png" alt="Logo de JOGO">
+            </div>
+            <div class="datos_jogo">
+                <p>&copy; <span id="year"></span> | Desarrollado por <strong><em>Josué Gonzales</em></strong></p>
+            </div>
+            <nav class="redes_jogo flex-center">
+                <a href="https://github.com/JOGO007" target="_blank" rel="noopener">
+                    <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub">
+                </a>
+                <a href="https://www.linkedin.com/in/josu%C3%A9-luis-gonzales-sinuiri-615815146/" target="_blank" rel="noopener">
+                    <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn">
+                </a>
+            </nav>
+        </footer>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
