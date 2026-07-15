@@ -97,7 +97,7 @@ function viewHTMLPendientes(){
 
             const btnImgSelect = document.createElement('img');
             btnImgSelect.classList.add('circule_select')
-            btnImgSelect.src = '/img/circulo_borde_solido.svg';
+                            btnImgSelect.src = './img/circulo_borde_solido.svg';
 
             // Guardamos el id como atributo para identificar qué tarea se clickeó
             btnImgSelect.dataset.id = penIngresado.id;
@@ -168,7 +168,7 @@ function viewHTMLRealizados(){
             checkDone.classList.add('span_icon-check');
 
             const btnImgCheck = document.createElement('img');
-            btnImgCheck.src = '/img/circulo_check.svg.svg';
+                            btnImgCheck.src = './img/circulo_check.svg.svg';
 
             const texto = document.createElement('p');
             texto.classList.add('form_texto');
